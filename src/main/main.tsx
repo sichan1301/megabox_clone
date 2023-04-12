@@ -1,14 +1,21 @@
 import styled from "styled-components"
-import BoxOfffice from "./boxOffice"
+import Benefit from "./benefit/benefit"
+import BoxOfffice from "./boxOffice/boxOffice"
+import Curation from "./curation/curation"
 
 const Main = () => {
   return(
-    <>
-      <BoxOfffice />
-    </>
+    <MainTag>
+        <BoxOfffice />
+        <Benefit />
+        <Curation />
+    </MainTag>
+
   )
 }
 
 export default Main
 
-
+const MainTag = styled.main`
+  width:100%;
+`

@@ -4,13 +4,11 @@ import Header from './header/header';
 import Main from './main/main';
 import Footer from './footer/footer';
 import styled from 'styled-components';
-import Navbar from './navbar/navbar';
 
 function App() {
   return (
     <Wrap>
       <Header />
-      <Navbar />
       <Main />
       <Footer />
     </Wrap>
