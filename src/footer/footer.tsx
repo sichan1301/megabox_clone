@@ -4,7 +4,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
   return(
-    <FooterSection>
+    <FooterContainer>
       <TopMenu>
         <ul>
           <li>회사소개</li>
@@ -24,9 +24,9 @@ const Footer = () => {
       </TopMenu>
 
       <LowerMenu>
-        <LogoImgDiv>
-          <img src={require('../imgs/free.jpg')} />
-        </LogoImgDiv>
+
+        <LogoImg src={require('../imgs/free.jpg')} />
+
         <LowerMenuText>
           <p>서울특별시 성동구 왕십리로 50, 6층 (성수동1가, 메가박스 스퀘어) ARS 1544-0070</p>
           <p>대표자명 홍정인 · 개인정보보호책임자 공성진 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 2023-서울성동-0177</p>
@@ -39,15 +39,14 @@ const Footer = () => {
           <img src={require('../imgs/free.jpg')} />
         </SocialImgDiv>
       </LowerMenu>
-    </FooterSection>
+    </FooterContainer>
   )
 }
 
 export default Footer
 
-const FooterSection = styled.footer`
+const FooterContainer = styled.footer`
   padding: 20px 20% 40px;  
-  width:100%;
 `
 
 const TopMenu = styled.div`
@@ -55,8 +54,8 @@ const TopMenu = styled.div`
   justify-content: space-between; 
   ul{
     padding:0;
-    display: flex;
     li{
+      display: inline;
       font-size: 14px;
       margin-right:15px;
       cursor:pointer;
@@ -69,7 +68,7 @@ const FindTheater = styled.div`
   align-items: center;
   border:0.5px solid grey;
   border-radius: 40px;
-  padding:1px 25px;
+  padding:0 25px;
   p{
     color:rgb(84, 84, 84);
     font-size:12px;
@@ -90,13 +89,9 @@ const LowerMenu = styled.div`
   align-items:center; 
 `
 
-const LogoImgDiv = styled.div`
-  width : 200px;
-  height: 150px;
-  img{
-    width:100%;
-    height:100%;
-  }
+const LogoImg = styled.img`
+  width:200px;
+  height:150px;
 `
 
 const LowerMenuText = styled.div`

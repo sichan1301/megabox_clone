@@ -19,15 +19,13 @@ const Movie = () => {
 export default Movie
 
 const MovieDiv = styled.div`
-  width:250px;
+  width:23%;
   cursor:pointer;
 `
 
 const ImgDIv = styled.div`
   margin-bottom:10px;
-  width:100%;
   height:360px;
-  margin-bottom:10px;
   img{
     border-radius:10px;
     width:100%;
@@ -36,10 +34,8 @@ const ImgDIv = styled.div`
 `
 
 const ButtonDiv = styled.div`
-  width:100%;
   height:40px;
   button{
-    padding:0;
     height:100%;
   :nth-child(1){
     width:32%;

@@ -41,7 +41,6 @@ export default BenefitMenu
 
 const BenefitMenuArticle = styled.article`
   padding:150px 20% 0;
-  width:100%;
   height:330px;
   background-color:rgb(85, 46, 132);
 `

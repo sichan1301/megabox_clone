@@ -6,25 +6,22 @@ import QnAList from "./QnAList"
 
 const Guide = () => {
   return(
-    <Section>
-      <p>메가박스 안내</p>
+    <section>
+      <Title>메가박스 안내</Title>
       <PageList />
       <Notice />
       <QnAList />
-    </Section>
+    </section>
   )
 }
 
-
 export default Guide
 
-
-const Section = styled.section`
-  p{
-    width:60%;
-    margin:40px auto;
-    color:rgb(69, 48, 88);
-    font-size:32px;
-    font-weight:600;
-  }
+const Title = styled.p`
+  width:60%;
+  margin:40px auto;
+  color:rgb(69, 48, 88);
+  font-size:32px;
+  font-weight:600;
+  
 `

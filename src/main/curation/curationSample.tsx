@@ -4,10 +4,10 @@ const CurationSample = () => {
   return(
     <CurationSampleDiv>
       <img src = {require('../../imgs/cost.jpg')} />
-      <ButtonDiv>
-        <button>상세 정보</button>
-        <button>예매</button>
-      </ButtonDiv>
+      <div>
+        <Button1>상세 정보</Button1>
+        <Button2>예매</Button2>
+      </div>
     </CurationSampleDiv>
   )
 }
@@ -27,21 +27,19 @@ const CurationSampleDiv = styled.div`
   } 
 `
 
-const ButtonDiv = styled.div`
-  button{
-    width:49%;
-    height:50px;
-    border-radius: 10px;
-    color:#fff;
-    font-size:18px;
-    :nth-child(1){
-      background-color: transparent;
-      margin-right:5px;
-      border:1px solid #fff;
-    }
-    :nth-child(2){
-      border:none;
-      background-color: rgb(75, 183, 233);
-    }
-  }
-  `
+const Button1 = styled.button`
+  width:49%;
+  height:50px;
+  border-radius: 10px;
+  color:#fff;
+  font-size:18px;
+  background-color: transparent;
+  margin-right:5px;
+  border:1px solid #fff;
+`
+
+const Button2 = styled(Button1)`
+  border:none;
+  background-color: rgb(75, 183, 233);
+  margin:0;
+`

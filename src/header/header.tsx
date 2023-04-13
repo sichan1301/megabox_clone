@@ -4,7 +4,6 @@ import { faBars,faMagnifyingGlass,faClapperboard,faUser } from '@fortawesome/fre
 const Header = () => {
   return(
     <HeaderContainer>
-
       <TopMenu>
         <ul>
           <li>VIP LOUNGE</li>
@@ -49,7 +48,6 @@ export default Header
 
 const HeaderContainer = styled.header`
   background-color: #08010a;
-  width:100%;
 `
 
 const TopMenu = styled.div`
@@ -77,21 +75,21 @@ const Navbar = styled.nav`
   margin:0 auto;
   padding:15px 0;
   
-  div{
-    padding:10px;
-  }
-
   ul{
     padding:0;
+    display:flex;
+    justify-content: space-between;
     li{
-      display:inline-block;
       text-align:center;
       color:#fff;
-      width:80px;
-      margin:0 30px;
+      width:120px;
       font-size:20px;
       cursor:pointer;
     }
+  }
+  
+  div{
+    padding:10px;
   }
 `
 const Icon = styled(FontAwesomeIcon)`

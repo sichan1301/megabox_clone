@@ -55,7 +55,6 @@ const HashTag = styled.p`
 const Title = styled(HashTag)`
   font-size:32px;
   margin-bottom:25px;
-
 `
 
 const CurationInfoDiv = styled.div`
@@ -73,10 +72,11 @@ const CurationListUl = styled.ul`
   padding:0;
   li{
     width:23%;
+    height:250px;
     img{
       width:100%;
+      height:100%;
       border-radius:10px;
-      height:250px;
     }
     p{
       color:#fff;

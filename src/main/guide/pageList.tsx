@@ -17,7 +17,6 @@ const PageList = () => {
 
 export default PageList
 
-
 const PageListUl = styled.ul`
   padding:20px 20% 50px;
   display:flex;

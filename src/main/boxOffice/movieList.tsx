@@ -18,10 +18,9 @@ export default MovieList
 
 const MovieListDiv = styled.div`
   position:relative;
-  width:100%;
   display:flex;
-  margin-bottom:30px;
   justify-content:space-between;
+  margin-bottom:60px;
 `
 
 const MoreButton = styled.button`

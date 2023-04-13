@@ -15,7 +15,7 @@ export default Menu
 
 const MenuDiv = styled.div`
   height:65px;
-  background-color:rgba(37, 7, 54, 0.8);
+  background-color:rgba(38, 7, 56, 0.5);
   border-radius:10px;
 
   button{

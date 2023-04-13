@@ -5,10 +5,10 @@ import BenefitMenu from "./benefitMenu"
 const Benefit = () => {
   return(
     <>
-      <Background>
+      <WhiteBackground>
         <p>혜택</p>
         <Banner />
-      </Background>
+      </WhiteBackground>
       <BenefitMenu />
     </>
   )
@@ -16,11 +16,9 @@ const Benefit = () => {
 
 export default Benefit
 
-const Background = styled.article`
+const WhiteBackground = styled.article`
   position:relative;
   padding: 20px 20% 0;
-  background-color:#fff;
-  width:100%;
   height:520px;
 
   p{

@@ -17,7 +17,7 @@ const Curation = () => {
 export default Curation
 
 const Section = styled.section`
-  padding:30px 20% 50px;
+  padding:30px 20% 100px;
   background-color:rgb(33, 33, 72);
 `
 
@@ -29,6 +29,5 @@ const Title = styled.p`
 `
 
 const Contents = styled.div`
-  width:100%;
   display:flex;
 `

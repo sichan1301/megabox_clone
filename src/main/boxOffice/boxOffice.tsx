@@ -18,14 +18,13 @@ export default BoxOfffice
 
 const Section =styled.section`
   background-color:rgb(20, 2, 30);
-  padding:80px 20% 200px;
+  padding:80px 20% 150px;
 
   p{
     width:100px;
     font-size:20px;
     margin:0 auto 30px;
     color:#fff;
-    text-align:center;
     cursor:pointer;
   }
 `
