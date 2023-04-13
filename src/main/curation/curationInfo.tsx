@@ -45,7 +45,6 @@ const CurationInfoArticle = styled.article`
   margin-left:20px;
 `
 
-
 const HashTag = styled.p`
   font-size:22px;
   color:#fff;
@@ -55,6 +54,7 @@ const HashTag = styled.p`
 
 const Title = styled(HashTag)`
   font-size:32px;
+  margin-bottom:25px;
 
 `
 
@@ -76,7 +76,7 @@ const CurationListUl = styled.ul`
     img{
       width:100%;
       border-radius:10px;
-      height:300px;
+      height:250px;
     }
     p{
       color:#fff;

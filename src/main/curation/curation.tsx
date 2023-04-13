@@ -18,7 +18,7 @@ export default Curation
 
 const Section = styled.section`
   padding:30px 20% 50px;
-  background-color:rgb(39, 40, 111);
+  background-color:rgb(33, 33, 72);
 `
 
 const Title = styled.p`

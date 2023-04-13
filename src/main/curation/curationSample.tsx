@@ -17,7 +17,7 @@ export default CurationSample
 
 const CurationSampleDiv = styled.div`
   width:700px;
-  height:500px;
+  height:400px;
   margin-right:20px;
   img{
     border-radius:10px;
@@ -32,10 +32,11 @@ const ButtonDiv = styled.div`
     width:49%;
     height:50px;
     border-radius: 10px;
+    color:#fff;
+    font-size:18px;
     :nth-child(1){
       background-color: transparent;
       margin-right:5px;
-      color:#fff;
       border:1px solid #fff;
     }
     :nth-child(2){

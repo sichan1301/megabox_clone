@@ -42,7 +42,7 @@ export default BenefitMenu
 const BenefitMenuArticle = styled.article`
   padding:150px 20% 0;
   width:100%;
-  height:350px;
+  height:330px;
   background-color:rgb(85, 46, 132);
 `
 
@@ -50,18 +50,20 @@ const BenefitMenuUl = styled.ul`
   display:flex;
   justify-content:space-around;
   height:50px;
+  padding:0;
   li{
     text-align:center;
     width:200px;
     cursor:pointer;
     p{
       color:#fff;
+      font-size:20px;
     }
   }
 `
 
 const Icon = styled(FontAwesomeIcon)`
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   margin: 0 10px;
 `

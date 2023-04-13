@@ -20,6 +20,7 @@ export default Movie
 
 const MovieDiv = styled.div`
   width:250px;
+  cursor:pointer;
 `
 
 const ImgDIv = styled.div`
@@ -28,6 +29,7 @@ const ImgDIv = styled.div`
   height:360px;
   margin-bottom:10px;
   img{
+    border-radius:10px;
     width:100%;
     height:100%;
   }
