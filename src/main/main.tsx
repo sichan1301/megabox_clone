@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Advertisement from "./advertisement"
+import Advertisement from "./advertisement/advertisement"
 import Benefit from "./benefit/benefit"
 import BoxOfffice from "./boxOffice/boxOffice"
 import Curation from "./curation/curation"
@@ -7,13 +7,13 @@ import Guide from "./guide/guide"
 
 const Main = () => {
   return(
-    <MainTag>
+    <main>
       <BoxOfffice />
       <Benefit />
       <Curation />
       <Guide />
       <Advertisement />
-    </MainTag>
+    </main>
 
   )
 }

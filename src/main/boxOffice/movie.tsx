@@ -25,7 +25,7 @@ const MovieDiv = styled.div`
 
 const ImgDIv = styled.div`
   margin-bottom:10px;
-  height:360px;
+  height:450px;
   img{
     border-radius:10px;
     width:100%;
@@ -34,7 +34,7 @@ const ImgDIv = styled.div`
 `
 
 const ButtonDiv = styled.div`
-  height:40px;
+  height:50px;
   button{
     height:100%;
   :nth-child(1){

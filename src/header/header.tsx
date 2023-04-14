@@ -48,13 +48,16 @@ export default Header
 
 const HeaderContainer = styled.header`
   background-color: #08010a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 `
 
 const TopMenu = styled.div`
   display: flex;
   justify-content: space-between;
   width:70%;
-  margin:0 auto;
+  /* margin:0 auto; */
   height:40px;
   ul{
     padding:0;
@@ -72,7 +75,7 @@ const Navbar = styled.nav`
   align-items:center;
   justify-content:space-between;
   width:70%;
-  margin:0 auto;
+  /* margin:0 auto; */
   padding:15px 0;
   
   ul{

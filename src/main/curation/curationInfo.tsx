@@ -72,7 +72,7 @@ const CurationListUl = styled.ul`
   padding:0;
   li{
     width:23%;
-    height:250px;
+    height:300px;
     img{
       width:100%;
       height:100%;

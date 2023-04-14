@@ -90,21 +90,22 @@ const LowerMenu = styled.div`
 `
 
 const LogoImg = styled.img`
-  width:200px;
-  height:150px;
+  width:300px;
+  height:200px;
+  margin-right:30px;
 `
 
 const LowerMenuText = styled.div`
-  width:80%;
+  width:75%;
   p{
     margin:0 0 4px 0;
-    font-size:15px;
+    font-size:18px;
   }
 `
 
 const SocialImgDiv = styled.div`
-  width:160px;
-  height:40px;
+  width:200px;
+  height:50px;
   img{
     width:25%;
     height:100%;
